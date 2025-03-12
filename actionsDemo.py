@@ -21,3 +21,6 @@ action.move_to_element(driver.find_element(By.LINK_TEXT,"Reload")).click().perfo
 action.move_to_element(driver.find_element(By.LINK_TEXT,"UPLOAD")).click().perform()
 action.move_to_element(driver.find_element(By.LINK_TEXT,"Develop branch")).click().perform()
 #comments
+action.move_to_element(driver.find_element(By.LINK_TEXT,"Log OUT")).click().perform()
+action.move_to_element(driver.find_element(By.LINK_TEXT,"UPLOAD")).click().perform()
+action.move_to_element(driver.find_element(By.LINK_TEXT,"Develop branch")).click().perform()
