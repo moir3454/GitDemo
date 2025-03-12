@@ -19,4 +19,5 @@ action.move_to_element(driver.find_element(By.ID,"mousehover")).perform()
 
 action.move_to_element(driver.find_element(By.LINK_TEXT,"Reload")).click().perform()
 action.move_to_element(driver.find_element(By.LINK_TEXT,"UPLOAD")).click().perform()
+action.move_to_element(driver.find_element(By.LINK_TEXT,"Develop branch")).click().perform()
 #comments
