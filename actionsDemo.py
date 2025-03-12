@@ -16,4 +16,7 @@ action = ActionChains(driver)
 #action.drag_and_drop()
 action.move_to_element(driver.find_element(By.ID,"mousehover")).perform()
 #action.context_click(driver.find_element(By.LINK_TEXT,"Top")).perform()
+
 action.move_to_element(driver.find_element(By.LINK_TEXT,"Reload")).click().perform()
+action.move_to_element(driver.find_element(By.LINK_TEXT,"UPLOAD")).click().perform()
+#comments
