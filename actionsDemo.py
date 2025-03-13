@@ -5,6 +5,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
+=============================
 service_obj = Service("/Users/rahulshetty/documents/chromedriver")
 driver = webdriver.Chrome(service=service_obj)
 driver.implicitly_wait(5)
